@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARScene.unity
     guid: b1d5396bcf1b49b4085796abad2e1693
+  - enabled: 0
+    path: Assets/Scenes/Vuforia.unity
+    guid: 171b32a844c68ee478017b6c3affa67e
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 24924e8014da24745a2cf426075addc1,
       type: 2}
