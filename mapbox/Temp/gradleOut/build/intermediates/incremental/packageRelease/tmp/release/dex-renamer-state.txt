@@ -1,0 +1,4 @@
+#Sun Jan 08 18:42:34 ICT 2023
+base.0=C\:\\Zara\\Jobs\\KKN AR\\kkn-lembah-mbencirang\\mapbox\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
