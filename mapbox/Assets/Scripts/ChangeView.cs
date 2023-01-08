@@ -6,6 +6,8 @@ public class ChangeView : MonoBehaviour
 {
     public GameObject lihatPeta;
     public GameObject lihatKamera;
+    public Camera mapCamera;
+    public Camera debugPathCamera;
 
     private bool _currentViewIsPeta;
 
@@ -21,11 +23,15 @@ public class ChangeView : MonoBehaviour
         {
             lihatPeta.SetActive(false);
             lihatKamera.SetActive(true);
+            mapCamera.enabled = true;
+            debugPathCamera.enabled = true;
         }
         else
         {
             lihatPeta.SetActive(true);
             lihatKamera.SetActive(false);
+            mapCamera.enabled = false;
+            debugPathCamera.enabled = false;
         }
     }
 }
